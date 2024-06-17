@@ -1,4 +1,4 @@
-name: Deploy Lambda
+name: Deploy to Production
 
 on:
   push:
@@ -8,6 +8,8 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: production
 
     steps:
       - name: Checkout code

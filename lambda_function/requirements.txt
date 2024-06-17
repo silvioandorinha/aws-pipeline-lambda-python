@@ -1,0 +1,1 @@
+# Adicione aqui as dependências necessárias para sua função Lambda
